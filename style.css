@@ -49,7 +49,7 @@ header button {
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
     border-left: 90px solid rgba(78, 103, 215, 0.784);
-    
+
 
     /* background: rgb(100, 109, 211); */
     position: relative;
@@ -412,11 +412,15 @@ h5 {
     font-weight: bold;
 }
 
-.hi {
+/* .hi {
     max-width: 40%;
     width: 50%;
     display: flex;
     padding: 23px 24px;
+} */
+.hi {
+    style="display: inline-block"
+    display: flex: ;
 }
 
 .bottomicon {
@@ -428,32 +432,34 @@ h5 {
     display: flex;
 }
 
-.hi  img {
-    width: 70px;
-    height: 70px;
-    
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
-}
+.hi img {
+    width: 30px;
+    height: 30px;
 
-footer {
-    background-color: aliceblue;
+  
+}
+.bay img{
+    width: 30px;
+    height: 30px;
+}
+.lastclass p{
+    max-width: 50%;
+    font-size: 26px;
+    margin-left: 10%;
+}
+.last3{
+    font-size: 100px;
+    color: gray;
+}
+footer{
+    display: flex;
     width: 100%;
+}
+footer ul{
     display: flex;
-    
-    max-width: 80%;
-   
-    margin: 0 auto;
-}
-
-footer a {
-    position: absolute;
-}
-
-footer image {
-    position: relative;
-    
-
+    justify-content: space-between;
+    width: 600px;
+    color: #1C4961;
+    font-size: 19px;
+    font-weight: lighter;
 }
