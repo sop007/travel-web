@@ -38,9 +38,40 @@ header button {
     border-radius: 17px;
     font-size: 19px;
     flex-wrap: wrap;
-    /* animation-play-state: running;
-    animation-delay: initial; */
-    animation: animation, 10s 10s 15s 5 3s step-start;
+
+}
+
+.animation {
+    animation: mymove 5s infinite;
+
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 90px solid rgba(78, 103, 215, 0.784);
+    
+
+    /* background: rgb(100, 109, 211); */
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 320px;
+    }
+}
+
+
+.ExploreNow {
+    border-radius: 10px;
+    background: #4468E2;
+    color: #FFFFFF;
+    font-weight: lighter;
 }
 
 .imageisland {
@@ -290,20 +321,6 @@ h1 {
 
 }
 
-.bottom1 {
-    /* width: 10%;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row; */
-}
-
-.bottom2 {
-
-    /* flex-wrap: wrap;
-    flex-direction: row; */
-
-}
-
 
 .section3 {
 
@@ -311,20 +328,20 @@ h1 {
 
 }
 
-.wtf {
+.blogs {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .bigimg {
     display: flex;
-
     border-radius: 1%;
     position: relative;
     width: 50%;
 
 }
-.bolo{
+
+.bolo {
     width: 48%;
 
 }
@@ -349,7 +366,9 @@ h1 {
     align-items: center;
 
 }
-.tired, .fktired{
+
+.tired,
+.fktired {
     width: 100%;
 }
 
@@ -386,8 +405,55 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-h5{
+
+h5 {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+}
+
+.hi {
+    max-width: 40%;
+    width: 50%;
+    display: flex;
+    padding: 23px 24px;
+}
+
+.bottomicon {
+    height: 33px;
+}
+
+.lastclass {
+    width: 100%;
+    display: flex;
+}
+
+.hi  img {
+    width: 70px;
+    height: 70px;
+    
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+
+footer {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    
+    max-width: 80%;
+   
+    margin: 0 auto;
+}
+
+footer a {
+    position: absolute;
+}
+
+footer image {
+    position: relative;
+    
+
 }
