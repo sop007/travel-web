@@ -2,6 +2,7 @@
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 header {
@@ -29,13 +30,17 @@ ul {
 
 }
 
-button {
+header button {
     background-color: #93aaf0;
     color: #FFFFFF;
     width: 104px;
     height: 34px;
     border-radius: 17px;
     font-size: 19px;
+    flex-wrap: wrap;
+    /* animation-play-state: running;
+    animation-delay: initial; */
+    animation: animation, 10s 10s 15s 5 3s step-start;
 }
 
 .imageisland {
@@ -48,20 +53,24 @@ button {
     position: absolute;
     top: 20%;
     left: 30%;
+    flex-wrap: wrap;
 }
 
 .inputborder {
     border: none;
     font-size: 16px;
+    flex-wrap: wrap;
 }
 
 .inputborder1 {
     border: none;
     font-size: 20px;
+    flex-wrap: wrap;
 
 }
 
 h1 {
+    flex-wrap: wrap;
     color: #FFFFFF;
     font-size: 50px;
     margin-left: 25%;
@@ -107,11 +116,8 @@ h1 {
     display: flex;
     max-width: 187px;
     width: 100%;
-
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 20px 30px;
+    background-color: #93aaf0;
     justify-content: center;
     align-items: center;
 }
@@ -139,9 +145,29 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     /* background-color: #EBF0FE; */
-box-shadow: 10px 40px 50px rgba(229, 223, 246, 0.4) ;
+    box-shadow: 10px 40px 50px rgba(229, 223, 246, 0.4);
+    flex-wrap: wrap;
 
 
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ico {
+    display: flex;
+    width: 123px;
+    height: 33px;
+    justify-content: space-between;
+    /* margin-right: 50%; */
+}
+
+.price {
+    margin-right: 5%;
 }
 
 .sec2-1 p {
@@ -165,16 +191,203 @@ box-shadow: 10px 40px 50px rgba(229, 223, 246, 0.4) ;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.section3{
+
+.section3 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
 }
-.section3 h4{
+
+.section3 h4 {
     display: flex;
     font-size: 40px;
     align-items: center;
 
 
+}
+
+.section3 {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    /* flex-wrap: wrap; */
+}
+
+.section3 h4 {
+    width: 516px;
+    margin-left: 40%;
+    margin-top: 121px;
+}
+
+.section3 ul {
+    display: flex;
+    justify-content: space-between;
+    color: #163235;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 1000px;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.row {
+    border-bottom: 5px solid #163235;
+
+}
+
+
+.firstdiv {
+    display: flex;
+    margin-top: 4%;
+
+}
+
+.firstdiv h3 {
+    font-size: 190%;
+}
+
+.firstdiv p {
+    font-size: 140%;
+    margin-top: 4%;
+    flex-direction: row;
+    /* width: 90%; */
+}
+
+.seconddiv {
+    display: flex;
+    margin-top: 4%;
+
+}
+
+.price {
+    margin-left: 320px;
+}
+
+.seconddiv h3 {
+    font-size: 190%;
+
+}
+
+.seconddiv p {
+    font-size: 140%;
+    margin-top: 4%;
+    flex-direction: row;
+    /* width: 90%; */
+}
+
+.bottom {
+    width: 10%;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 60%;
+
+
+}
+
+.bottom1 {
+    /* width: 10%;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row; */
+}
+
+.bottom2 {
+
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+
+}
+
+
+.section3 {
+
+    width: 100%;
+
+}
+
+.wtf {
+    display: flex;
+    justify-content:space-between;
+}
+
+.bigimg {
+    display: flex;
+
+    border-radius: 1%;
+    position: relative;
+    width: 50%;
+
+}
+.bolo{
+    width: 48%;
+
+}
+
+.bigimg p {
+    display: flex;
+    position: absolute;
+    font-size: 200%;
+    width: 350px;
+    color: #FFFFFF;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topimg {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+
+}
+.tired, .fktired{
+    width: 100%;
+}
+
+.topimg p {
+    display: flex;
+    position: absolute;
+    font-size: 200%;
+    width: 50%;
+    color: #FFFFFF;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.botimg {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.botimg p {
+    display: flex;
+    position: absolute;
+    font-size: 200%;
+    width: 50%;
+    color: #FFFFFF;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h5{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
