@@ -46,9 +46,10 @@ header button {
 
     width: 0;
     height: 0;
+    opacity: 0.5;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
-    border-left: 90px solid rgba(78, 103, 215, 0.784);
+    border-left: 90px solid rgba(236, 7, 190, 0.784);
 
 
     /* background: rgb(100, 109, 211); */
@@ -194,7 +195,6 @@ h1 {
     width: 123px;
     height: 33px;
     justify-content: space-between;
-    /* margin-right: 50%; */
 }
 
 .price {
@@ -266,8 +266,16 @@ h1 {
     margin-bottom: 3%;
 }
 
+.shadow {
+    box-shadow: 1px 3px rgb(240, 237, 237);
+
+}
+
 .row {
-    border-bottom: 5px solid #163235;
+    border-bottom: 5px solid;
+    height: 20px;
+    background-image: linear-gradient(rgba(30, 255, 0, 0.229), rgba(45, 58, 67, 0.099), rgb(196, 149, 203));
+    border-bottom: dotted cornflowerblue;
 
 }
 
@@ -317,6 +325,7 @@ h1 {
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 60%;
+
 
 
 }
@@ -419,8 +428,10 @@ h5 {
     padding: 23px 24px;
 } */
 .hi {
-    style="display: inline-block"
-    display: flex: ;
+
+
+    box-shadow: 1px 15px #d7e3ed;
+
 }
 
 .bottomicon {
@@ -436,30 +447,59 @@ h5 {
     width: 30px;
     height: 30px;
 
-  
+
 }
-.bay img{
+
+.bay {
+
+    box-shadow: 1px 15px #d7e3ed;
+}
+
+.bay img {
     width: 30px;
     height: 30px;
+
 }
-.lastclass p{
+
+.lastclass p {
     max-width: 50%;
     font-size: 26px;
     margin-left: 10%;
 }
-.last3{
+
+.last3 {
     font-size: 100px;
     color: gray;
 }
-footer{
+
+footer {
     display: flex;
     width: 100%;
+    background-color: #E1E8F8
+
 }
-footer ul{
-    display: flex;
+
+footer nav {
+    display: block;
     justify-content: space-between;
     width: 600px;
     color: #1C4961;
     font-size: 19px;
     font-weight: lighter;
+    margin: 10px 500px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+ 
+   
+
+}
+
+footer p {
+    display: block;
+
+  
+    
 }
