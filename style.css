@@ -465,8 +465,9 @@ h5 {
 
 footer {
     display: flex;
-    margin: 0 auto;
-    width: 80%;
+    /* margin: auto; */
+    width: 100%;
+    height: 50px;
     background-color: #E1E8F8
 }
 
@@ -474,10 +475,11 @@ footer nav {
     display: block;
     justify-content: space-between;
     width: 600px;
+    height: 50px;
     color: #1C4961;
     font-size: 19px;
     font-weight: lighter;
-    margin: 10px 500px;
+    /* margin: 10px 500px; */
 }
 
 .footernav {
@@ -485,7 +487,7 @@ footer nav {
     background-color: #0099cc;
     background-image: linear-gradient(rgba(30, 255, 0, 0.229), rgba(45, 58, 67, 0.099), rgb(196, 149, 203));
     color: #ffffff;
-    margin: auto;
+
     font-size: 12px;
     padding: 15px;
     max-width: 50%;
@@ -493,115 +495,114 @@ footer nav {
 
 }
 
+.footerp {
+    display: flex;
+    text-indent: 50px;
+
+}
+
 @media (max-width:1080px) {
     body {
         color: #4468E2;
         background-color: #163235;
-background-position: center;
-background-position: center;
+        background-position: center;
+        background-position: center;
 
-}
+    }
 
-.container {
-    display: flex;
-    margin: 0 auto;
-    max-width: 100%;
-    flex-wrap: wrap;
+    .container {
+        display: flex;
+        margin: 0 auto;
+        max-width: 100%;
+        flex-wrap: wrap;
 
-}
+    }
 
-header {
-    display: flex;
-    max-width: 13%;
-    height: auto;
-    background-color: #b1cddc;
-    border-radius: 50px;
-
-}
-
-
-
-header li {
-    margin: auto;
-    width: 50%;
-    color: ghostwhite;
-    margin-left: 10%;
-}
-
-.conect {
-    display: flex;
-
-
-
-}
-
-.section1 h1 {
-    visibility: hidden;
-}
-
-.first {
-    visibility: hidden;
-}
-
-.islandbox {
-    visibility: hidden;
-}
-
-.section3 h4 {
-    max-width: 200px;
-
-}
-
-.shadow {
-    visibility: hidden;
-}
-
-.firstdiv {
-    display: flex;
-    margin-left: 12%;
-    max-width: 200px;
-    flex-wrap: wrap;
-    align-items: center;
-
-
-
-}
-
-.firstdiv p {
-    max-width: 200px;
-}
-
-.seconddiv {
-    display: flex;
-    margin-left: 12%;
-    max-width: 200px;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.bolo {
-    visibility: hidden;
-}
-
-.section4 {
-    visibility: hidden;
-
-}
-
-footer {
-    visibility: hidden;
-}
-
-.bigimg p {
-    color: #4a39c8;
-    margin-left: 60%;
-    font-weight: bold;
-    font-optical-sizing: 10px;
-}
+    header {
+        display: flex;
+        max-width: 13%;
+        height: auto;
+        background-color: #b1cddc;
+        border-radius: 50px;
 
     }
 
 
+
+    header li {
+        margin: auto;
+        width: 50%;
+        color: ghostwhite;
+        margin-left: 10%;
+    }
+
+    .conect {
+        display: flex;
+
+
+
+    }
+
+    .section1 h1 {
+        visibility: hidden;
+    }
+
+    .first {
+        visibility: hidden;
+    }
+
+    .islandbox {
+        visibility: hidden;
+    }
+
+    .section3 h4 {
+        max-width: 200px;
+
+    }
+
+    .shadow {
+        visibility: hidden;
+    }
+
+    .firstdiv {
+        display: flex;
+        margin-left: 12%;
+        max-width: 200px;
+        flex-wrap: wrap;
+        align-items: center;
+
+
+
+    }
+
+    .firstdiv p {
+        max-width: 200px;
+    }
+
+    .seconddiv {
+        display: flex;
+        margin-left: 12%;
+        max-width: 200px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .bolo {
+        visibility: hidden;
+    }
+
+    .section4 {
+        visibility: hidden;
+
+    }
+
+
+    .bigimg p {
+        color: #4a39c8;
+        margin-left: 60%;
+        font-weight: bold;
+        font-optical-sizing: 10px;
+    }
 }
 
 @media (max-width:480px) {
@@ -712,16 +713,27 @@ footer {
     }
 
     footer {
-        visibility: hidden;
+        display: flex;
+
+
+
     }
 
     .bigimg p {
         color: #4a39c8;
         margin-left: 60%;
         font-weight: bold;
-       font-optical-sizing: 10px;
+        font-optical-sizing: 10px;
     }
 
+    .footerp {
+        display:flex;
+        width: 20%;
+        background-color: #2a119a;
+        text-indent: 50px;
+        
+        
+    }
 
 
 }
